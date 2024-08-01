@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+"""Type-annotated function to_kv that takes a string k and an int OR float v as"""
 to_kv = __import__('7-to_kv').to_kv
 
 print(to_kv.__annotations__)
