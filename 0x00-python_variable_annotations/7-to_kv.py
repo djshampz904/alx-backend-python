@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Type-annotated function to_kv that takes a string k and an int OR float v as"""
+"""Type-annotated function to_kv that ts"""
 
 from typing import Union, Tuple
 
