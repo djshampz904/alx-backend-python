@@ -42,7 +42,8 @@ class TestGetJson(unittest.TestCase):
         ("http://holberton.io", {"payload": False})
     ])
     @patch('requests.get')
-    def test_get_json(self, test_url: str, test_payload: dict, mock_get: Mock) -> None:
+    def test_get_json(self, test_url: str,
+                      test_payload: dict, mock_get: Mock) -> None:
         """Test that utils.get_json returns the expected result."""
         mock_response = Mock()
         mock_response.json.return_value = test_payload
