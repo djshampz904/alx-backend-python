@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""3. Basic annotations - to string"""
+'''Task 3's module.
+'''
 
 
 def to_str(n: float) -> str:
-    """returns the string representation of the float"""
+    '''Converts a floating-point number to a string.
+    '''
     return str(n)

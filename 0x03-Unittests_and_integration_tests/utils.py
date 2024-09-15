@@ -11,6 +11,7 @@ from typing import (
     Callable,
 )
 
+
 __all__ = [
     "access_nested_map",
     "get_json",
@@ -73,4 +74,3 @@ def memoize(fn: Callable) -> Callable:
         return getattr(self, attr_name)
 
     return property(memoized)
-

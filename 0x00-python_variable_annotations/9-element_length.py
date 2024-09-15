@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Type-annotated function to_kv that takes a string """
-from typing import List, Tuple
+'''Task 9's module.
+'''
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst: List[str]) -> List[Tuple[str, int]]:
-    """Returns a list of tuples, each containing"""
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
+    '''
     return [(i, len(i)) for i in lst]
